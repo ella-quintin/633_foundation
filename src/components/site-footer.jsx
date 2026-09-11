@@ -18,7 +18,7 @@ export function SiteFooter() {
           />
           <div>
             <p className="font-display text-base leading-tight">{site.name}</p>
-            <p className="text-sm text-ink-soft">A Hear For Him</p>
+            <p className="text-sm text-ink-soft">A Heart for Him</p>
           </div>
         </div>
 

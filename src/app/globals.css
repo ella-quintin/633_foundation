@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --cream: #fbf7ef;
+  --cream-soft: #f4ecdc;
+  --ink: #201a14;
+  --ink-soft: #6b6255;
+  --green: #107840;
+  --green-deep: #0b5c30;
+  --red: #e2242c;
+  --red-deep: #b81a21;
+  --brown: #603810;
+  --line: #e7dfcf;
+}
+
+@theme inline {
+  --color-cream: var(--cream);
+  --color-cream-soft: var(--cream-soft);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-green: var(--green);
+  --color-green-deep: var(--green-deep);
+  --color-red: var(--red);
+  --color-red-deep: var(--red-deep);
+  --color-brown: var(--brown);
+  --color-line: var(--line);
+  --font-display: var(--font-fraunces);
+  --font-sans: var(--font-inter);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--cream);
+  color: var(--ink);
+}
+
+::selection {
+  background: var(--green);
+  color: var(--cream);
+}
+
+:focus-visible {
+  outline: 2px solid var(--green-deep);
+  outline-offset: 3px;
+}

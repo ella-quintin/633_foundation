@@ -10,7 +10,7 @@ export const programs = [
       "A daily devotional of study, reflection and prayer from Aletheia — 'the light for your path.' Hosted by Melissa Ennin-Anagbo, now available to stream on Spotify.",
     image: "/simple-truths-flyer.jpg",
     // TODO: replace with the real Spotify show link for Simple Truths
-    spotifyUrl: "https://open.spotify.com/",
+    spotifyUrl: "https://open.spotify.com/show/5z8xlnPBqVABbqDQfyIKs7",
   },
   {
     id: "helpers-prayer-group",
@@ -20,6 +20,6 @@ export const programs = [
       "A weekly prayer gathering hosted by Melissa Ennin-Anagbo, shaping families through prayer — now available to stream on Spotify.",
     image: "/helpers-prayer-group.jpg",
     // TODO: replace with the real Spotify show link for The Helpers Prayer Group
-    spotifyUrl: "https://open.spotify.com/",
+    spotifyUrl: "https://open.spotify.com/show/5z8xlnPBqVABbqDQfyIKs7",
   },
 ];

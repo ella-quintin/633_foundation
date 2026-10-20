@@ -28,7 +28,7 @@ export const metadata = {
     "Christian podcast",
     "Spotify",
     "sermons",
-    "ministry programs",
+    "ministry meetings",
   ],
   alternates: {
     canonical: "/",

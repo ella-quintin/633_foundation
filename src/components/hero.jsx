@@ -56,11 +56,11 @@ export function Hero() {
           className="mt-8"
         >
           <a
-            href="#programs"
+            href="#meetings"
             className="inline-flex items-center gap-2.5 rounded-full bg-green px-8 py-4 text-sm font-semibold text-cream shadow-lg shadow-green/20 transition-all hover:-translate-y-0.5 hover:bg-green-deep hover:shadow-xl hover:shadow-green/25"
           >
             <Headphones className="h-4 w-4" aria-hidden="true" />
-            Listen to our programs
+            Listen to our meetings
           </a>
         </motion.div>
       </div>

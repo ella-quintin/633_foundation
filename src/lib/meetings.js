@@ -1,7 +1,7 @@
-// TODO: add the real Spotify show/episode links, and drop each program's
+// TODO: add the real Spotify show/episode links, and drop each meeting's
 // cover image into /public (e.g. /public/simple-truths.jpg) and reference it
-// as `image` below. Add more objects to this array when new programs launch.
-export const programs = [
+// as `image` below. Add more objects to this array when new meetings launch.
+export const meetings = [
   {
     id: "simple-truths",
     name: "Simple Truths",

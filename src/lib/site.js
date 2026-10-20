@@ -7,7 +7,7 @@ export const site = {
   tagline: "Seeking first His Kingdom and His righteousness.",
   verse: "Matthew 6:33",
   description:
-    "633 Foundation spreads the word of God through preaching, daily capsules, and programs that bring truth and light to all — rooted in Matthew 6:33.",
+    "633 Foundation spreads the word of God through preaching, daily capsules, and meetings that bring truth and light to all — rooted in Matthew 6:33.",
   locale: "en_US",
   themeColor: "#107840",
 };

@@ -1,5 +1,5 @@
 import { Hero } from "@/components/hero";
-import { Programs } from "@/components/programs";
+import { Meetings } from "@/components/meetings";
 import { StructuredData } from "@/components/structured-data";
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <StructuredData />
       <Hero />
-      <Programs />
+      <Meetings />
     </>
   );
 }

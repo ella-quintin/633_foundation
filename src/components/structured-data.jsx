@@ -1,5 +1,5 @@
 import { site, SITE_URL } from "@/lib/site";
-import { programs } from "@/lib/programs";
+import { meetings } from "@/lib/meetings";
 
 export function StructuredData() {
   const data = {
@@ -8,12 +8,12 @@ export function StructuredData() {
     name: site.name,
     url: SITE_URL,
     description: site.description,
-    sameAs: programs.map((program) => program.spotifyUrl),
-    subOrganization: programs.map((program) => ({
+    sameAs: meetings.map((meeting) => meeting.spotifyUrl),
+    subOrganization: meetings.map((meeting) => ({
       "@type": "CreativeWorkSeries",
-      name: program.name,
-      description: program.description,
-      url: program.spotifyUrl,
+      name: meeting.name,
+      description: meeting.description,
+      url: meeting.spotifyUrl,
     })),
   };
 
